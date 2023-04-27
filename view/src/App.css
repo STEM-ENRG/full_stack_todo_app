@@ -1,0 +1,77 @@
+body {
+  background-color: blanchedalmond;
+}
+
+.App {
+  text-align: center;
+}
+
+.name-of-app {
+  font-size: 30pt;
+  font-family: cursive;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.input-text {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #800080;
+  text-align: center;
+  font-style: italic;
+  font-size: 12pt;
+  border-radius: 12px;
+}
+
+.save-todo {
+  border-radius: 14px;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 22pt;
+  font-weight: bold;
+  color: green;
+  border-color: yellowgreen;
+  font-family: Candara;
+}
+
+.to-do-list {
+  margin-top: 40px;
+}
+
+  .to-do-list li {
+    /* list-style: none; */
+    font-size: 15pt;
+  }
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
